@@ -1,0 +1,277 @@
+h1{
+  
+}
+.img1{
+  width: 500px;
+}
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+  
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.main{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+
+.main2{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.main3{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.main4{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.main5{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.main6{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.main7{
+  width:100%;
+  /* 가로 세로 변경 */
+  display: flex;
+  border-radius: 100px;
+}
+.aaa{
+  width: 200px;
+  height: 200px;
+}
+
+.tool{
+  width: 100%;
+background-color: #2d3436;
+color: white;
+padding: 2px;
+
+justify-content: end;
+}
+.tool i{
+  padding:5px;
+  cursor: pointer;
+}
+.note textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f9fdaa,#ed95ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.conatiner{
+  display:grid;
+  grid-template-columns: 1fr,1fr, 1fr, 1fr, 1fr,1fr ,1fr;
+}
+
+.note2 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f9fdaa,#cd95ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note2 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn2{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.note3 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f9fdaa,#b195ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note3 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn3{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.note4 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f9fdaa,#95a0ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note4 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn4{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.note5 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f9fdaa,#95afff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note5 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn5{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.note6 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#ffc69a,#95c0ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note6 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn6{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
+
+.note7 textarea{
+  border: none;
+  width: 100%;
+  height:100%;
+  resize:none;
+  padding:10px;
+  font-size: 20px;
+  background:linear-gradient(135deg,#f08a8a,#95c0ff);
+  display: flex;
+  flex-direction: column;
+}
+
+.note7 textarea:focus{
+  border:0;
+  outline:0;
+}
+
+#addBtn7{
+  position:relative;
+  background-color: rgb(227, 13, 13);
+  color:whitesmoke;
+  border-radius: 1000px;
+}
